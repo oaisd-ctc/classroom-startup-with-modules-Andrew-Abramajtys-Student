@@ -9,11 +9,6 @@ public class Program
         DailyLogic();
         BoxBreathing(5);
         DailyHypothetical();
-
-        // STEP 3.b - Uncomment the lines below after your functions have been defined
-        // FindSeat();
-        // SignIn();
-        // DailyLogic();
     }
 
     public static void FindSeat()
@@ -38,10 +33,6 @@ public class Program
         Console.WriteLine("Navigate to the Daily Logic Classroom.");
         Console.WriteLine("Complete the Daily Logic for the day.");
     }
-
-    /**
-    * Create functions for Box Breathing and Daily Hypotheticals below:
-    */
     public static void BoxBreathing(int duration)
     {
         Console.WriteLine("Inhale for " + duration + " seconds.");
